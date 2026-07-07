@@ -134,29 +134,24 @@ nav ul li a{
     padding: 130px 156px;
     margin: 130px auto;
 }
-
 .about-me{
     text-align: center;
 }
-
 .about-me-h3{
     font-size: xx-large;
     margin-bottom: 20px;
     color: #181818;
 }
-
 .about-me-para{
     font-size: larger;
     color: #474747;
 }
-
 .contact-info{
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 30px;
 }
-
 .contact-info h5{
     font-size: large;
     color: #474747;
@@ -164,4 +159,53 @@ nav ul li a{
 .contact-info p{
     color: #757575;
     font-size: larger;
+}
+
+
+
+
+
+.what-i-do-container{
+    padding: 130px auto;
+    margin: 130px auto;
+}
+.what-i-do{
+    text-align: center;
+    padding: 0 155px;
+    color: #757575;
+}
+
+.what-i-do-h3{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.what-i-do-para{
+    font-size: larger;
+    color: #474747;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.skill-card{
+    max-width: 230px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.skill-icon{
+    margin-bottom: 25px;
+}
+.skill-name{
+    margin-bottom: 25px;
+}
+.skills-container p{
+    color: #757575;
+    line-height: 28px;
 }
