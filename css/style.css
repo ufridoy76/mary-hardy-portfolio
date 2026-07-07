@@ -1,18 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
     font-family: "Open Sans";
 }
-/* .open-sans{
-  font-style: normal;
-  font-family: "Open Sans";
-} */
 
 img{
     max-width: 100%;
 }
-
-
 
 .container{
     max-width: 1280px;
@@ -83,7 +80,25 @@ nav ul li a{
 .banner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.developer-image-text{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.developer-img{
+    display: flex;
+}
+.banner-content{
+    flex: 1;
+}
+.banner-img{
+    flex: 1;
 }
 
 .hero-content-h3{
@@ -112,3 +127,41 @@ nav ul li a{
     cursor: pointer;
 }
 
+
+
+.about-me-container{
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+    margin: 130px auto;
+}
+
+.about-me{
+    text-align: center;
+}
+
+.about-me-h3{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.about-me-para{
+    font-size: larger;
+    color: #474747;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info h5{
+    font-size: large;
+    color: #474747;
+}
+.contact-info p{
+    color: #757575;
+    font-size: larger;
+}
