@@ -310,6 +310,31 @@ hr{
 
 .footer{
     background-color: #FFF8F3;
+}
+
+.footer-container{
     padding: 130px 230px;
-    display: flex;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.social-media h1{
+    margin-bottom: 20px;
+}
+.social-media p{
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.newslater{
+    padding-right: 60px;
+}
+
+.newslater input, textarea{
+    width: 100%;
+    padding: 20px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
