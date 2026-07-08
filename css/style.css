@@ -326,6 +326,11 @@ hr{
     color: #757575;
 }
 
+.footer-icon img{
+    margin-right: 20px;
+    width: 50px;
+}
+
 .newslater{
     padding-right: 60px;
 }
