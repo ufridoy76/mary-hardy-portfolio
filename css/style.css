@@ -305,3 +305,11 @@ hr{
 .box6{
     grid-area: six;
 }
+
+
+
+.footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+}
